@@ -45,15 +45,19 @@
 	<div class="container">
 		<div class="row-fluid">
 			<div class="span9">
+			<div class="well">
 				<p><h2>${post.title }</h2>--发表于发布于<fmt:formatDate pattern="yyyy-MM-dd HH:mm:ss" value="${post.time}"/>
 				<p>${post.content }
 				<p>${post.title }位于${post.caterogeId }分类,查看<a href="../cateroge/${post.caterogeId }">${post.caterogeId }</a>中的其他文章.
+			</div>
+			<div class="well">
 				<h3>评论列表:</h3>
 				<hr>
 				<c:forEach var="comment" items="${commentList }">
 					<p>${comment.authorName }在<fmt:formatDate pattern="yyyy-MM-dd HH:mm:ss" value="${comment.time}"/>说道:${comment.content }
 				</c:forEach>
-				${viewCount }
+				</div>
+				<div class="well">
 				<h3>添加评论:</h3>
 				<hr>
 				<form method="post" action="../addComment">
@@ -63,6 +67,8 @@
 					<p><label>评论内容:</label><textarea name="comment.content">${contentMsg }</textarea>
 					<p><input type="submit" class="btn btn-primary"/>
 				</form>
+				</div>
+
 			</div>
 			    <div class="span3">
       <div class="widget">作者</div>

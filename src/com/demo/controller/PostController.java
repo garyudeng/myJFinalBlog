@@ -14,7 +14,7 @@ public class PostController extends Controller{
 		//访问链接是http://localhost:8080/demo/post/detail/1
 		public void detail(){
 			final Integer postId = getParaToInt(0);//getParaToint()方法得到的就是detail后面的1
-			final Post post = Post.dao.findById(postId);
+			Post post = Post.dao.findById(postId);
 			//这一部是执行更新
 			post.set("viewCount", post.getLong("viewCount")+1).update();
 			setAttr("post", post);
