@@ -13,7 +13,7 @@
 			});
 		});
 </script>
-      <div class="widget">
+      <div class="well">
       近期评论:
       <ul id ="lastestComment">
       </ul>

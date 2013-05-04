@@ -71,7 +71,7 @@
 
 			</div>
 			    <div class="span3">
-      <div class="widget">作者</div>
+      <div class="well well-samll">作者</div>
 		<c:import url="include/mostViewPost.jsp"></c:import>
 		<c:import url="include/lastestComment.jsp"></c:import>
     </div>

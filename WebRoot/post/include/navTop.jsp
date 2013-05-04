@@ -26,7 +26,7 @@
             	<li><a href="<c:url value="/post"/>">首页</a></li>
             </ul>
             <form class="navbar-form pull-right" method="get" action="">
-              <input class="span2" type="text" placeholder="标题" x-webkit-speech>
+              <input class="span2" type="text" placeholder="标题" x-webkit-speech required>
               <button type="submit" class="btn">搜索</button>
             </form>
           </div>

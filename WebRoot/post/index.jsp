@@ -41,15 +41,7 @@
 <div class="container">
   <div class="row-fluid">
     <div class="span9">
-    	<c:forEach var="post" items="${postList }">
-    		<div id="post-${post.id }"class="well well-large">
-    			<p><a href="detail/${post.id }">${post.title }</a><span class="pull-right"><fmt:formatDate pattern="yyyy-MM-dd HH:mm:ss" value="${post.time}"/></span> <br/>
-    			<p>${post.content }
-    			<p><i class="icon-comment"></i>${post.commentCount }条评论
-    			<i class="icon-eye-open"></i>${post.viewCount }次浏览
-    			<hr>
-    		</div>
-    	</c:forEach>
+		<c:import url="include/postList.jsp"/>
     </div>
     <div class="span3">
       <div class="widget">作者</div>

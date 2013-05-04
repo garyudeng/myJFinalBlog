@@ -12,7 +12,7 @@
 			});
 		});
 </script>
-      <div class="widget">
+      <div class="well">
       浏览最多的文章:
       <ul id ="mostViewPost">
       </ul>
