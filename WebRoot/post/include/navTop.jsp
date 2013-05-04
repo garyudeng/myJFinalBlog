@@ -7,8 +7,8 @@
 						var str = "";
 						for (var i = 0; i < data.length; i++){
 							str = str + "<li class=''><a href=<c:url value="/post/cateroge"></c:url>/"+data[i].id+"> "+data[i].name+"</a></li>";
-							
 						}
+						str = str + "<li class=''><a href=<c:url value="/aboutme"></c:url>>关于本站</a></li>";
 						$("#cateroge").append(str);
 			});
 		});

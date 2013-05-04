@@ -10,5 +10,8 @@ public class CommonController extends Controller {
 	public void index() {
 		redirect("/post");
 	}
+	public void aboutme() {
+		render("aboutme.jsp");
+	}
 	
 }
