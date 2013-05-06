@@ -1,11 +1,13 @@
 package com.demo.common;
 
-import com.demo.model.Cateroge;
-import com.demo.model.Comment;
-import com.demo.model.Post;
 import com.demo.controller.CaterogeController;
 import com.demo.controller.PostController;
 import com.demo.controller.UserController;
+import com.demo.controller.AdminController;
+import com.demo.model.Admin;
+import com.demo.model.Cateroge;
+import com.demo.model.Comment;
+import com.demo.model.Post;
 import com.demo.model.User;
 import com.jfinal.config.Constants;
 import com.jfinal.config.Handlers;
@@ -43,6 +45,7 @@ public class DemoConfig extends JFinalConfig {
 		me.add("/cateroge", CaterogeController.class);
 		me.add("/user",UserController.class);
 		me.add("/post",PostController.class);
+		me.add("/admin",AdminController.class);
 	}
 	
 	/**
@@ -60,6 +63,7 @@ public class DemoConfig extends JFinalConfig {
 		arp.addMapping("post", Post.class);
 		arp.addMapping("comment", Comment.class);
 		arp.addMapping("cateroge", Cateroge.class);
+		arp.addMapping("admin",Admin.class);
 	}
 	
 	/**

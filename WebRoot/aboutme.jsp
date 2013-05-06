@@ -42,10 +42,10 @@
   <div class="row-fluid">
     <div class="span12">
 		<div class="well">
-			<p class="info">使用<a href="http://www.oschina.net/p/jfinal"><img src="img/jfinal.gif" width="32" height="32"/>JFinal</a>搭建的开源博客系统.
-			<p class="info">HTML+CSS模板使用<a href="http://twitter.github.io/bootstrap/index.html">BootStrap</a>.
-			<p class="info">代码编写使用<a href="http://www.eclipse.org/">Eclipse jee</a>.
-			<p class="info">代码使用<a href="https://github.com">GitHub</a>托管,项目地址为<a href="https://github.com/hyperdal/myJFianlBlog">https://github.com/hyperdal/myJFianlBlog</a>,欢迎Fork.
+			<p class="">使用<a href="http://www.oschina.net/p/jfinal" target="_blank"><img src="img/jfinal.gif" width="32" height="32"/>JFinal</a>搭建的开源博客系统.
+			<p class="info">HTML+CSS模板使用<a href="http://twitter.github.io/bootstrap/index.html" target="_blank">BootStrap</a>.
+			<p class="info">代码编写使用<a href="http://www.eclipse.org/" target="_blank">Eclipse jee</a>.
+			<p class="info">代码使用<a href="https://github.com" target="_blank">GitHub</a>托管,项目地址为<a href="https://github.com/hyperdal/myJFianlBlog" target="_blank">https://github.com/hyperdal/myJFianlBlog</a>,欢迎Fork.
 		</div>
     </div>
   </div>

@@ -50,14 +50,14 @@
 				<p>${post.content }
 				<p>${post.title }位于${post.caterogeId }分类,查看<a href="../cateroge/${post.caterogeId }">${post.caterogeId }</a>中的其他文章.
 			</div>
-			<div class="well">
+			<div class="well" id="comments">
 				<h3>评论列表:</h3>
 				<hr>
 				<c:forEach var="comment" items="${commentList }">
 					<p>${comment.authorName }在<fmt:formatDate pattern="yyyy-MM-dd HH:mm:ss" value="${comment.time}"/>说道:${comment.content }
 				</c:forEach>
 				</div>
-				<div class="well">
+				<div class="well" id="newComment">
 				<h3>添加评论:</h3>
 				<hr>
 				<form method="post" action="../addComment">

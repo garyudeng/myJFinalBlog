@@ -14,6 +14,6 @@
 </script>
       <div class="well">
       浏览最多的文章:
-      <ul id ="mostViewPost">
-      </ul>
+      <ol id ="mostViewPost">
+      </ol>
       </div>
